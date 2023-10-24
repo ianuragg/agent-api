@@ -17,4 +17,4 @@ This is a Django project that provides a RESTful API for managing system informa
 3. Install the dependencies: `pip install -r requirements.txt`
 4. Run the migrations: `python manage.py migrate`
 5. Run the server: `python manage.py runserver`
-5. Then run the agent.py: `python agent.py`
+5. Then run the main.exe file: `main.exe`
