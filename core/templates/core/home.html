@@ -45,7 +45,7 @@
                 {% for system in systems %}
                 <tr>
                     <th scope="row">{{ forloop.counter }}</th>
-                    <td><a href="{% url 'u_ip' ip=system.0 %}">{{ system.0 }}</td>
+                    <td><a href="{% url 'u_ip' ip=system.0 %}">Placeholder for IP</td>
                     <td>{{ system.1 }}</td>
                 </tr>
                 {% endfor %}
